@@ -1,0 +1,68 @@
+{
+  "source": {
+    "type": "public defaced T1-weighted MRI",
+    "dataset": "OpenNeuro ds004712",
+    "filename": "sub-03286_ses-NOT1ACH001_T1w.nii.gz",
+    "canonical_axes": [
+      "R",
+      "A",
+      "S"
+    ],
+    "canonical_axis_2_index_zero_based": 94,
+    "canonical_volume_shape": [
+      183,
+      227,
+      189
+    ],
+    "canonical_affine": [
+      [
+        0.9985691905021667,
+        -0.0036780214868485928,
+        0.05334772914648056,
+        -91.1408920288086
+      ],
+      [
+        0.0035992625635117292,
+        0.999992311000824,
+        0.0015723309479653835,
+        -113.51637268066406
+      ],
+      [
+        -0.05335310101509094,
+        -0.0013780688168480992,
+        0.9985747337341309,
+        -58.10537338256836
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "intensity_divisor": 1702972.875
+  },
+  "coordinates": "zero-based (row, column); positive shifts down and right",
+  "seed": 20261115,
+  "applied_translation_px": [
+    7,
+    -5
+  ],
+  "noise_distribution": "additive zero-mean Gaussian",
+  "noise_sigma": 0.06,
+  "feature": {
+    "shape": "disk",
+    "center_row_col_px": [
+      115,
+      115
+    ],
+    "radius_px": 2.5,
+    "contrast_annulus_inner_outer_radii_px": [
+      4,
+      7
+    ],
+    "added_intensity": 0.18
+  },
+  "gaussian_filter_sigma_px": 0.85,
+  "gaussian_filter_radius_px": 4
+}
